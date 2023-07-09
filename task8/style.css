@@ -1,0 +1,31 @@
+body{
+    direction: rtl;
+}
+section{
+    text-align: end;
+    background-color: rgba(175, 107, 240, 0.692);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+div{
+    text-align: start;
+    background-color: aquamarine;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+span{
+    background-color: rgba(221, 63, 63, 0.63);
+    font-weight: bold;
+    border-radius: 4px;
+}
+footer{
+    background-color: rgb(77, 66, 66);
+    text-align: center;
+    padding: 10px;
+}

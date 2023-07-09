@@ -1,0 +1,51 @@
+body{
+    padding: 1rem;
+}
+.main{
+    background-color: purple;
+    border: 2px solid black;
+    display: flex;
+    padding: .5rem;
+    width: 80vw;
+    margin: auto;
+    border-radius: 7px;
+}
+.main div{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 5vh;
+    margin: .5rem;
+}
+.one {
+    width: 15%;
+}
+.three{
+    width: 15%;
+}
+.two{
+    width: 10%;
+}
+#f1{
+    justify-content: start;
+}
+#f2{
+    justify-content: end;
+}
+#f3{
+    justify-content: center;
+}
+#f4{
+    justify-content: space-between;
+}
+#f5{
+    justify-content: space-around;
+}
+#f6{
+    justify-content: space-evenly;
+}
+span{
+    margin-left:5%;
+    color: purple;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,13 @@
+
+.text{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    
+}
+.background{
+    background: linear-gradient(90deg, rgb(129, 233, 198) 25%, rgb(240, 146, 178) 95%);
+    width: 50vh;
+    height: 50vh;
+    margin: -8rem auto;
+}

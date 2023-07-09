@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <fieldset class="main">
+        <label for="box"><h3>Simple Form with FieldSets</h3><br><br></label>
+        <div id="box">
+            <fieldset class="f1">
+                <legend>
+                    <button class="fa fa-angles-up"></button>
+                    Fieldset 1
+                </legend>
+                <div> 
+                    <label for="one">Field 1:</label>
+                    <input id="one" type="text">
+                </div>
+                <div>
+                    <label for="two">Field 2:</label>
+                    <input id="two" type="text">
+                </div>
+            </fieldset>
+            <fieldset class="f2">
+                <legend>
+                    <button class="fa fa-check" type="submit"></button>
+                    Show Panel
+                </legend>
+                <fieldset class="main">
+                    <label>
+                       <h3> Panel inside a fieldset</h3> <br> <br> <br>
+                    </label>
+                </fieldset>
+            </fieldset>
+        </div>
+    </fieldset>
+</body>
+
+</html>

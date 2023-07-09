@@ -1,0 +1,38 @@
+html{
+    font-size: 100%;
+}
+body{
+    background-color: rgb(26, 3, 46);
+}
+section {
+    width: 25%;
+    color: white;
+    border: solid 10px rgb(124, 16, 124);
+    margin:8rem 2.8rem;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+}
+ .title{
+font-size: 0.8rem;
+margin: 1rem;
+ }
+.box{
+    background-color:rgb(124, 16, 124) ;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 33%;
+    margin: 1.5rem auto;
+}
+.bold{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 1rem 0.3;
+}
+.hr {
+    margin: 2rem 0;
+    
+}
+div {
+    margin: 1rem auto;
+}

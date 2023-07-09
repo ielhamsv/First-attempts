@@ -1,0 +1,13 @@
+@media print {
+    .no-print{
+        opacity: 0;
+    }
+    header {
+        max-height: 35vh;
+        margin: 0;
+    }
+    .main{
+        margin: 0;
+    }
+
+}
