@@ -1,0 +1,27 @@
+.container{
+    background-color:red;
+    width:500px;
+    height:500px;
+    text-align:center;
+    position:relative;
+    }
+    
+    
+    .container h1{
+    text-transform:uppercase;
+    position:absolute;
+    z-index:9;
+    top:50px;
+    left:30px;
+    color:white;
+    mix-blend-mode:difference;
+    }
+    
+    .container div{
+    background-color:white;
+    position:absolute;
+    width:300px;
+    height:250px;
+    border-radius:50%;
+    right:0;
+    }

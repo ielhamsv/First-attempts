@@ -1,0 +1,68 @@
+html{
+    font-size: 100%;
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.f1 input{
+    float: right;
+    padding: .7rem;
+    border: 1px solid rgb(99, 43, 99);
+    
+}
+.f1 label{
+    font-weight: bold;
+    color: rgb(88, 14, 122);
+}
+.f1 div{
+    display: block;
+    margin: 1.5rem auto;
+    text-align: left;
+    padding: .5rem;
+}
+.f1{
+    border: 1px solid rgb(99, 43, 99);
+    background-color: rgb(208, 160, 247);
+    margin: 0;
+}
+.f1 legend{
+    font-weight: bold;
+    color: rgb(108, 5, 204);
+}
+.f1 button{
+    padding: .2rem;
+    background-color: violet;
+    border: 1px solid rgb(99, 43, 99);
+    border-radius: 2px;
+}
+
+.f2{
+    margin: 0;
+    background-color:rgb(208, 160, 247) ;
+    border: 1px solid rgb(99, 43, 99);
+}
+.f2 legend{
+    font-weight: bold;
+    color: rgb(108, 5, 204);
+}
+.f2 legend button{
+    padding: .2rem;
+    background-color: violet;
+    border: 1px solid rgb(99, 43, 99);
+    border-radius: 2px;
+}
+.main{
+    background-color:rgb(208, 160, 247) ;
+    border: 2px solid rgb(99, 43, 99);
+    border-radius: 4px;
+    padding: 0;
+}
+
+.main label h3{
+    background-color:rgb(208, 160, 247);
+    color: rgb(108, 5, 204);   
+    margin: .2rem;
+    padding:.2rem;
+    background-color: rgba(245, 177, 200, 0.671);
+}

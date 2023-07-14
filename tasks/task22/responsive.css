@@ -1,0 +1,11 @@
+@media (max-width:540px){
+    #box{
+        display: block;
+    }
+    .f2{
+        margin-top:.5rem ;
+    }
+    .main{
+        padding: .5rem;
+    }
+}

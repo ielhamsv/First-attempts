@@ -1,0 +1,76 @@
+.top {
+    width: 1000px;
+    height: 300px;
+    margin: .5rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+}
+.bot {
+    width: 1000px;
+    height: 300px;
+    margin: .5rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+}
+.right{
+    background-color: rgb(9, 255, 0);
+    width: 450px;
+    height: 270px;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.left{
+    background-color: rgb(9, 255, 0);
+    width: 450px;
+    height: 270px;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.soton{
+    background-color: aliceblue;
+    width: 145px;
+    margin:0 auto;
+}
+.blue{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+.red{
+    width: 100%;
+    height: 170px;
+    background-color: red;
+    margin-top:50px ;
+}
+.green{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+.pur{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    margin-top: 10px;
+}
+.yel{
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+    margin-top: 10px;
+}
+.pink{
+    width: 100%;
+    background-color: pink;
+    height: 150px;
+}
+.ora{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: orangered;
+}

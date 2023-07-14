@@ -1,0 +1,25 @@
+.two{
+    border: 1px solid black;
+    border-spacing: 0ch;
+    margin: 10px;
+}
+td,th{
+    border: 1px solid black;
+    padding: 0.5rem;
+ 
+}
+.width{
+    width: 100%;
+}
+.two tfoot td {
+    border: none;
+}
+.one{
+    border-spacing: 0ch;
+}
+div {
+    display: inline;
+}
+th {
+    background-color: gray;
+}

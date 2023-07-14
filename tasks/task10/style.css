@@ -1,0 +1,15 @@
+li{
+    background-color: rgb(190, 255, 125);
+    float: left;
+    margin: 1rem;
+    
+}
+a:hover{
+    color: red;
+    text-decoration: line-through;
+}
+ul {
+    overflow: hidden;
+    background-color: rgb(116, 8, 8);
+    width: 50%;
+}
