@@ -1,5 +1,56 @@
-root {
-    --primary-color:#dfd9d9;
-    --secondry-color:#008000;
-    --bg-color:#dfd9d9;
+html{
+    font-size: 100%;
+    font-family: Vazir;
+}
+#background{
+    background:url("./img/bg.jpeg") center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#top{
+    background: url("./img/layer.svg") center/cover no-repeat;
+    opacity: .5;
+    width: 100%;
+    height: 100vh;
+    direction: ltr;
+    padding-top: .5rem;
+}
+#top div{
+    width: 40%;
+    text-align: left;
+    direction: ltr;
+    margin: 3.5rem;
+}
+#top div #title{
+    color: gray;
+    font-size: .8rem;
+    font-weight: bold;
+}
+#top div #title::after{
+    content: ":";
+}
+#top div h2{
+    color: #ff0000;
+    font-size: 1.2rem;
+    width: 50%;
+}
+#top div a{
+    width: 27%;
+    background: #800000;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: .7em;
+    margin-top: 1rem;
+    border: 1px solid #410202;
+    border-radius: 5px;
+    color: #dfd9d9;
+    direction: ltr;
+}
+#top div a img{
+    width: 15%;
+}
+#download{
+    margin-top: .2em;
 }

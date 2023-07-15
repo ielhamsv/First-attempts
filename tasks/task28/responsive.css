@@ -1,0 +1,38 @@
+@media screen and (max-width: 992px) {
+    #top div a{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 766px) {
+    #top div a{
+        font-size: .5rem;
+    }
+    #top div a img{
+        width: 10%;
+    }
+}
+@media screen and (max-width: 658px) {
+    #top div{
+        margin: 2.5rem;
+    }
+    #top div h2{
+        width: 60%;
+    }
+    .main{
+        display: none;
+    }
+    #burger-menu{
+        display: block;
+    }
+}
+@media screen and (max-width: 560px) {
+    #top div a{
+        width: 40%;
+    }
+    #top div a img{
+        width: 20%;
+    }
+    #top div h2{
+        font-size: 1rem;
+    }
+}

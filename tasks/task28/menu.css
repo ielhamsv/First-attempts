@@ -5,14 +5,22 @@
     font-size: 100%;
     direction: rtl;
 }
-
+#burger-menu{
+    display: none;
+    font-weight: bold;
+    padding: .5rem;
+}
 .main {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(8, 1fr);
     position: relative;
 }
-
+#top-menu{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
 .main li {
     list-style: none;
     text-align: center;
@@ -23,7 +31,7 @@
 .main li a {
     width: 100%;
     text-decoration: none;
-    color: green;
+    color: #800000;
     font-weight: bold;
 }
 
@@ -80,7 +88,7 @@
 
 
 #li4 {
-    background-color: rgb(3, 83, 3) !important;
+    background-color: rgb(83, 3, 3) !important;
     color: white !important;
 }
 
@@ -98,7 +106,7 @@ hr {
 }
 
 .main>li:hover {
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid #800000;
     background-color: white;
 }
 
