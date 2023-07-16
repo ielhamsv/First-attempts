@@ -15,6 +15,12 @@
     #top div{
         margin: 2.5rem;
     }
+    #center{
+        margin-top: 4rem;
+    }
+    #center div span {
+        font-size: .8rem;
+    }
     #top div h2{
         width: 60%;
     }
