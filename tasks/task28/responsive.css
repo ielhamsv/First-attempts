@@ -2,6 +2,9 @@
     #top div a{
         width: 35%;
     }
+    #bot-layer div{
+        display: none;
+    }
 }
 @media screen and (max-width: 766px) {
     #top div a{

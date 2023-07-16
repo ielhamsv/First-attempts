@@ -80,3 +80,28 @@ html{
     font-weight: bold;
     color: aliceblue;
 }
+#bot-layer{
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    direction: ltr;
+    margin-top: 5rem;
+}
+#bot-layer div{
+    width: 30%;
+    text-align: center;
+    margin-top: 2rem;
+}
+#bot-layer div p{
+    color: white;
+    margin-top: 1rem;
+}
+#bot-layer div h2{
+    color: white;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+#bot-layer img{
+    width: 30%;
+}
