@@ -1,0 +1,12 @@
+body{
+    background-color: #262323;
+    text-align: center;
+    font-weight: bold;
+    color:white ;
+}
+header{
+    background: rgb(137,3,185);
+    background: linear-gradient(135deg, rgba(137,3,185,1) 25%, rgba(195,26,255,1) 78%, rgba(255,105,156,1) 100%);
+    border: 6px solid black;
+    padding: 1.5rem;
+}
