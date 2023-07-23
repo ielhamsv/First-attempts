@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50vw;
+    height: 50vh;
+    margin: 3rem auto;
+    text-align: center;
+}
+table td{
+    border: 2px solid black;
+}
+label input{
+    display: inline-block;
+}
+
+input:checked + table .dark {
+    background-color: #211f1f;
+    color: white;
+}
+input:checked + table .light {
+    background-color: #3d3939;
+    color: white;
+}
+input{
+    visibility: hidden;
+}
