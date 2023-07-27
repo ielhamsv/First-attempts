@@ -1,0 +1,107 @@
+html{
+    font-size: 100%;
+    font-family: Vazir;
+}
+#background{
+    background:url("./img/bg.jpeg") center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+#layer{
+    background: url("./img/layer.svg") center/cover no-repeat;
+    opacity: .5;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+#top{
+    direction: ltr;
+    padding-top: .5rem;
+}
+#top div{
+    width: 40%;
+    text-align: left;
+    direction: ltr;
+    margin: 3.5rem;
+}
+#top div #title{
+    color: #000000;
+    font-size: .8rem;
+    font-weight: bold;
+}
+#top div #title::after{
+    content: ":";
+}
+#top div h2{
+    color: #ff0000;
+    font-size: 1.2rem;
+    width: 50%;
+}
+#top div a{
+    width: 27%;
+    background: #800000;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: .7em;
+    margin-top: 1rem;
+    border: 1px solid #410202;
+    border-radius: 5px;
+    color: #dfd9d9;
+    direction: ltr;
+}
+#top div a img{
+    width: 15%;
+}
+#download{
+    margin-top: .2em;
+}
+#center{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+#center div{
+    width: 20%;
+    text-align: center;
+}
+#center div img{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+#center div span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+#bot-layer{
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    direction: ltr;
+    margin-top: 5rem;
+}
+#bot-layer div{
+    width: 30%;
+    text-align: center;
+    margin-top: 2rem;
+}
+#bot-layer div p{
+    color: white;
+    margin-top: 1rem;
+}
+#bot-layer div h2{
+    color: white;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+#bot-layer img{
+    width: 30%;
+}
